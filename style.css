@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+
+
+:root{
+    --bg-clr: #ffffff ;
+/* Ne moraju biti samo boje može i veličine fonta, margine, paddinga */
+}
+
+body{
+    background-color: var(--bg-clr) ;
+}
+
+/* Basic style na parent element */
+.container{
+    position: absolute;
+    top: 250px;
+    width: 5000px;
+    height: 450px;
+    background-color: rgb(95, 95, 94);
+    
+}
+
+
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.box{
+    width: 250px;
+    height: 300px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 16px;
+    
+    
+}
+
+span{
+    background-color: rgb(81, 0, 255);
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    font-size: 3rem;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+
+.box-2{
+    
+    position: relative;
+    bottom: 10px;
+    border-color: red;
+}
+.box-3{
+    
+    background-color: white;
+}
+p{
+    padding: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2rem;
+    font-weight: ;
+    display: flex;
+    justify-content: center;;
+}
+p2{
+    padding: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2rem;
+    font-weight: ;
+    display: flex;
+    justify-content: center;;
+}
+p3{
+    padding: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2rem;
+    font-weight: ;
+    display: flex;
+    justify-content: center;;
+}
+p11 {
+    line-height: 35px;
+    font-size: 1.4rem;
+    margin: 4rem;
+    
+}
+p12 {
+    line-height: 35px;
+    font-size: 1.4rem;
+    margin: 4rem;
+}
+p13 {
+    line-height: 35px;
+    font-size: 1.4rem;
+    margin: 4rem;
+
+}
+p14 {
+    line-height: 35px;
+    font-size: 1.4rem;
+    margin: 4rem;
+}
+.buy{
+    
+    width: 130px;
+    height: 37px;
+    margin: 20px;
+    background-color: rgb(69, 5, 244);
+    border-radius: 7px;
+
+}
+pbuy {
+    color: white;
+    padding: 6px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2rem;
+    font-weight: ;
+    display: flex;
+    justify-content: center;;
+}
